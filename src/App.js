@@ -1,7 +1,7 @@
 function App() {
   return (
     <main>
-      Hello Microverse
+      <h1>Hello Microverse</h1>
     </main>
   );
 }
