@@ -2,9 +2,16 @@ import { useState } from 'react';
 import styles from '../styles/Calculator/Calculator.module.css';
 import Button from './Button';
 import ResultBar from './ResultBar';
+import calculate from '../logic/calculate';
 
 function Calculator() {
   const [state, setState] = useState({});
+
+  const handleClick = (value) => {
+    const newState = calculate(state, value);
+    setState(newState);
+  };
+
   return (
     <section>
       <div className={styles.calculator}>
