@@ -1,7 +1,11 @@
+import styles from './styles/App/App.module.css';
+import Calculator from './components/Calculator';
+
 function App() {
   return (
-    <main>
-      <h1>Hello Microverse</h1>
+    <main className={styles.app}>
+      <h1>Math Magicians</h1>
+      <Calculator />
     </main>
   );
 }

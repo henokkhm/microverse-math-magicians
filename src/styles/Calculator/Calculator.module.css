@@ -1,0 +1,10 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.row {
+  display: flex;
+  gap: 0;
+}
