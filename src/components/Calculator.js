@@ -1,11 +1,12 @@
 import styles from '../styles/Calculator/Calculator.module.css';
 import Button from './Button';
+import ResultBar from './ResultBar';
 
 function Calculator() {
   return (
     <section>
       <div className={styles.calculator}>
-        <div className={styles.row}>ResultBar</div>
+        <ResultBar />
         <div className={styles.row}>
           <Button value="AC" />
           <Button value="+/-" />
