@@ -1,8 +1,10 @@
+import { useState } from 'react';
 import styles from '../styles/Calculator/Calculator.module.css';
 import Button from './Button';
 import ResultBar from './ResultBar';
 
 function Calculator() {
+  const [state, setState] = useState({});
   return (
     <section>
       <div className={styles.calculator}>
