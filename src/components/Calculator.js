@@ -7,6 +7,8 @@ import calculate from '../logic/calculate';
 function Calculator() {
   const [state, setState] = useState({});
 
+  const displayValue = state.next || state.total || '0';
+
   const handleClick = (value) => {
     const newState = calculate(state, value);
     setState(newState);
@@ -15,7 +17,7 @@ function Calculator() {
   return (
     <section>
       <div className={styles.calculator}>
-        <ResultBar />
+        <ResultBar displayValue={displayValue} />
         <div className={styles.row}>
           <Button value="AC" handleClick={handleClick} />
           <Button value="+/-" handleClick={handleClick} />
@@ -46,6 +48,7 @@ function Calculator() {
           <Button value="=" accent handleClick={handleClick} />
         </div>
       </div>
+      <pre>{JSON.stringify(state, null, 2)}</pre>
     </section>
   );
 }
