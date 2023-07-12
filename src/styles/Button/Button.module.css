@@ -1,0 +1,33 @@
+.button {
+  font-size: 1.1rem;
+  width: 5rem;
+  height: 5rem;
+  padding: 2rem;
+  border: none;
+  outline: none;
+  background: #e0e0e0;
+  transition: all 100ms ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  background: #cdcaca;
+}
+
+.button:active {
+  transform: translateY(2px) scale(0.99);
+}
+
+.wide {
+  width: calc(10rem + 1px);
+}
+
+.accent {
+  background: #f5913e;
+}
+
+.accent:hover {
+  background: #d87e35;
+}
