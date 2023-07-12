@@ -1,0 +1,13 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  gap: 1px;
+  background-color: rgb(225, 224, 224);
+}
+
+.row {
+  display: flex;
+  gap: 1px;
+  width: max-content;
+}

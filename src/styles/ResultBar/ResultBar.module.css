@@ -1,0 +1,10 @@
+.resultBar {
+  font-size: 1.15rem;
+  font-weight: 500;
+  width: 100%;
+  padding: 1rem;
+  color: rgb(255, 251, 251);
+  background: #858694;
+  text-align: right;
+  margin-bottom: -1px;
+}
