@@ -17,33 +17,33 @@ function Calculator() {
       <div className={styles.calculator}>
         <ResultBar />
         <div className={styles.row}>
-          <Button value="AC" />
-          <Button value="+/-" />
-          <Button value="%" />
-          <Button value="÷" accent />
+          <Button value="AC" handleClick={handleClick} />
+          <Button value="+/-" handleClick={handleClick} />
+          <Button value="%" handleClick={handleClick} />
+          <Button value="÷" accent handleClick={handleClick} />
         </div>
         <div className={styles.row}>
-          <Button value="7" />
-          <Button value="8" />
-          <Button value="9" />
-          <Button value="x" accent />
+          <Button value="7" handleClick={handleClick} />
+          <Button value="8" handleClick={handleClick} />
+          <Button value="9" handleClick={handleClick} />
+          <Button value="x" accent handleClick={handleClick} />
         </div>
         <div className={styles.row}>
-          <Button value="4" />
-          <Button value="5" />
-          <Button value="6" />
-          <Button value="-" accent />
+          <Button value="4" handleClick={handleClick} />
+          <Button value="5" handleClick={handleClick} />
+          <Button value="6" handleClick={handleClick} />
+          <Button value="-" accent handleClick={handleClick} />
         </div>
         <div className={styles.row}>
-          <Button value="1" />
-          <Button value="2" />
-          <Button value="3" />
-          <Button value="+" accent />
+          <Button value="1" handleClick={handleClick} />
+          <Button value="2" handleClick={handleClick} />
+          <Button value="3" handleClick={handleClick} />
+          <Button value="+" accent handleClick={handleClick} />
         </div>
         <div className={styles.row}>
-          <Button value="0" wide />
-          <Button value="." />
-          <Button value="=" accent />
+          <Button value="0" wide handleClick={handleClick} />
+          <Button value="." handleClick={handleClick} />
+          <Button value="=" accent handleClick={handleClick} />
         </div>
       </div>
     </section>
