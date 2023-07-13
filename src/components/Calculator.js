@@ -48,7 +48,6 @@ function Calculator() {
           <Button value="=" accent handleClick={handleClick} />
         </div>
       </div>
-      <pre>{JSON.stringify(state, null, 2)}</pre>
     </section>
   );
 }
