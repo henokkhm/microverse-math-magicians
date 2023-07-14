@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import useFetch from '../hooks/useFetch';
+import styles from '../styles/Quote/Quote.module.css';
 
 const API_KEY = process.env.REACT_APP_API_NINJAS_API_KEY;
 const QUOTES_URL = 'https://api.api-ninjas.com/v1/quotes';
@@ -26,11 +27,12 @@ function Quote() {
   const first = data[0];
 
   return (
-    <div>
-      <p>{first.quote}</p>
-      <p>
+    <div className={styles.wrapper}>
+      <p className={styles.quote}>{first.quote}</p>
+      <p className={styles.right}>
         by
-        <span>{first.author}</span>
+        {' '}
+        <span className={styles.author}>{first.author}</span>
       </p>
     </div>
   );

@@ -5,9 +5,11 @@ import Quote from './components/Quote';
 function App() {
   return (
     <main className={styles.app}>
-      <h1>Math Magicians</h1>
-      <Calculator />
-      <Quote />
+      <h1 className={styles.pageHeader}>Math Magicians</h1>
+      <div className={styles.content}>
+        <Calculator />
+        <Quote />
+      </div>
     </main>
   );
 }
