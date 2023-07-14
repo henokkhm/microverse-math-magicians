@@ -1,3 +1,23 @@
 .app {
   padding: 3rem 2rem;
+  margin: 0 auto;
+  min-width: 24rem;
+  max-width: 90rem;
+}
+
+.pageHeader {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+
+@media (min-width: 50rem) {
+  .content {
+    flex-direction: row;
+  }
 }
