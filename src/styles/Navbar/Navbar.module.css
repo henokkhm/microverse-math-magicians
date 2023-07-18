@@ -34,6 +34,6 @@
   border-bottom: 3px solid #2f2418;
 }
 
-.mainNavLinkActive {
+[aria-current='page'] {
   font-weight: 700;
 }

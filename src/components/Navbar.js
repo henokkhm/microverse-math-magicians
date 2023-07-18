@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'; // If you're using React Router for navigation
 import styles from '../styles/Navbar/Navbar.module.css';
 
 function Navbar() {
@@ -7,19 +8,28 @@ function Navbar() {
       <nav>
         <ul className={styles.mainNav}>
           <li>
-            <a className={styles.mainNavLink} href="/">
+            <NavLink
+              to="/"
+              className={styles.mainNavLink}
+            >
               Home
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a className={styles.mainNavLink} href="/calculator">
+            <NavLink
+              to="/calculator"
+              className={styles.mainNavLink}
+            >
               Calculator
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a className={styles.mainNavLink} href="/quote">
+            <NavLink
+              to="/quote"
+              className={styles.mainNavLink}
+            >
               Quote
-            </a>
+            </NavLink>
           </li>
         </ul>
       </nav>
