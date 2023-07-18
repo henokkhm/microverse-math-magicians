@@ -1,17 +1,25 @@
+import styles from '../styles/Navbar/Navbar.module.css';
+
 function Navbar() {
   return (
-    <header>
-      <div>Math Magicians</div>
+    <header className={styles.header}>
+      <h1 className={styles.logo}>Math Magicians</h1>
       <nav>
-        <ul>
+        <ul className={styles.mainNav}>
           <li>
-            <a href="/">Home</a>
+            <a className={styles.mainNavLink} href="/">
+              Home
+            </a>
           </li>
           <li>
-            <a href="/calculator">Calculator</a>
+            <a className={styles.mainNavLink} href="/calculator">
+              Calculator
+            </a>
           </li>
           <li>
-            <a href="/quote">Quote</a>
+            <a className={styles.mainNavLink} href="/quote">
+              Quote
+            </a>
           </li>
         </ul>
       </nav>
