@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  background-color: rgba(149, 146, 146, 0.062);
   max-width: 42rem;
 }
 
@@ -12,7 +11,7 @@
   font-family: 'Diphylleia', serif;
   line-height: 1.6;
   font-size: 1.2rem;
-  color: rgb(44, 42, 42);
+  color: #5a4c3d;
 }
 
 .quote::before {
@@ -20,7 +19,7 @@
   font-size: 8rem;
   font-weight: bold;
   position: absolute;
-  color: rgba(75, 72, 72, 0.435);
+  color: rgba(222, 222, 222, 0.37);
   left: -2rem;
   top: -3rem;
   z-index: -10;
@@ -32,5 +31,5 @@
 
 .author {
   font-weight: 500;
-  color: #000;
+  color: #2f2418;
 }

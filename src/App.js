@@ -8,7 +8,6 @@ function App() {
     <>
       <Navbar />
       <main className={styles.app}>
-        <h1 className={styles.pageHeader}>Math Magicians</h1>
         <div className={styles.content}>
           <Calculator />
           <Quote />
