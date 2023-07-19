@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Navbar renders correctly 1`] = `
+<button
+  className="button  "
+  onClick={[Function]}
+  type="button"
+>
+  hi
+</button>
+`;
+
+exports[`The button renders correct className when we pass accent props 1`] = `
+<button
+  className="button  accent"
+  onClick={[Function]}
+  type="button"
+>
+  good
+</button>
+`;
+
+exports[`The button renders correct className when we pass wide props 1`] = `
+<button
+  className="button wide "
+  onClick={[Function]}
+  type="button"
+>
+  good
+</button>
+`;
+
+exports[`The button renders correct css when we pass wide props 1`] = `
+<button
+  className="button wide "
+  onClick={[Function]}
+  type="button"
+>
+  good
+</button>
+`;
+
+exports[`The button renders correct value 1`] = `
+<button
+  className="button  "
+  onClick={[Function]}
+  type="button"
+>
+  hi
+</button>
+`;
+
+exports[`The button renders correct value 2`] = `
+<button
+  className="button  "
+  onClick={[Function]}
+  type="button"
+>
+  hello
+</button>
+`;
