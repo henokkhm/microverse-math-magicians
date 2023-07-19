@@ -1,0 +1,41 @@
+.homePage {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.pageTitle {
+  position: relative;
+  color: #3c1e1a;
+  margin-bottom: 2rem;
+}
+
+.pageTitle::before {
+  content: '';
+  position: absolute;
+  background: #f68644;
+  border-radius: 1rem;
+  bottom: -0.3rem;
+  left: 0;
+  width: 3rem;
+  height: 0.25rem;
+  z-index: -10;
+}
+
+.pageTitle::after {
+  content: '';
+  position: absolute;
+  background: #fdbf9c;
+  border-radius: 1rem;
+  bottom: -0.3rem;
+  left: 0;
+  width: 5rem;
+  height: 0.25rem;
+  z-index: -20;
+}
+
+.paragraph {
+  max-width: 50rem;
+  padding: 1rem 0;
+  color: #6e655a;
+  font-size: 0.9rem;
+}

@@ -5,7 +5,7 @@
   padding: 2rem;
   border: none;
   outline: none;
-  background: #e0e0e0;
+  background: #ffeeec;
   transition: all 100ms ease-in-out;
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@
 }
 
 .button:hover {
-  background: #cdcaca;
+  background: rgb(241, 228, 228);
 }
 
 .button:active {
@@ -25,9 +25,9 @@
 }
 
 .accent {
-  background: #f5913e;
+  background: #f68644;
 }
 
 .accent:hover {
-  background: #d87e35;
+  background: #f79b66;
 }
