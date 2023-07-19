@@ -2,7 +2,7 @@ import styles from '../styles/Home/Home.module.css';
 
 function Home() {
   return (
-    <section className={styles.homePage}>
+    <section className={styles.homePage} data-testid="homepage-content">
       <h2 className={styles.pageTitle}>Welcome to our page!</h2>
       <p className={styles.paragraph}>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, ullam
