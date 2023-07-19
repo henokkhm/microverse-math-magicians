@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The resultBar The homepage renders correctly 1`] = `
+<div
+  className="resultBar"
+>
+  0
+</div>
+`;
+
+exports[`The resultBar renders 0 if we don't pass a display value 1`] = `
+<div
+  className="resultBar"
+>
+  0
+</div>
+`;
+
+exports[`The resultBar renders the value passed 1`] = `
+<div
+  className="resultBar"
+>
+  5
+</div>
+`;
+
+exports[`The resultBar renders the value passed 2`] = `
+<div
+  className="resultBar"
+>
+  9
+</div>
+`;
