@@ -13,6 +13,7 @@ function Button({
       className={buttonClasses}
       type="button"
       onClick={() => handleClick(value)}
+      data-testid={`btn-${value}`}
     >
       {value}
     </button>
