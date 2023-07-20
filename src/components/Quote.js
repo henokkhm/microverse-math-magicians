@@ -27,14 +27,13 @@ function Quote() {
   const first = data[0];
 
   return (
-    <div className={styles.wrapper}>
+    <section data-testid="quote-content" className={styles.wrapper}>
       <p className={styles.quote}>{first.quote}</p>
       <p className={styles.right}>
         by
-        {' '}
         <span className={styles.author}>{first.author}</span>
       </p>
-    </div>
+    </section>
   );
 }
 

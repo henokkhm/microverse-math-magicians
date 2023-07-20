@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from '../styles/ResultBar/ResultBar.module.css';
 
 function ResultBar({ displayValue }) {
-  return <div className={styles.resultBar}>{displayValue}</div>;
+  return <div data-testid="calculation-result" className={styles.resultBar}>{displayValue}</div>;
 }
 
 ResultBar.propTypes = {

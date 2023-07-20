@@ -15,7 +15,7 @@ function Calculator() {
   };
 
   return (
-    <section>
+    <section data-testid="calculator-content">
       <div className={styles.calculator}>
         <ResultBar displayValue={displayValue} />
         <div className={styles.row}>

@@ -11,6 +11,7 @@ function Navbar() {
             <NavLink
               to="/"
               className={styles.mainNavLink}
+              data-testid="navlink-home"
             >
               Home
             </NavLink>
@@ -19,6 +20,7 @@ function Navbar() {
             <NavLink
               to="/calculator"
               className={styles.mainNavLink}
+              data-testid="navlink-calculator"
             >
               Calculator
             </NavLink>
@@ -27,6 +29,7 @@ function Navbar() {
             <NavLink
               to="/quote"
               className={styles.mainNavLink}
+              data-testid="navlink-quote"
             >
               Quote
             </NavLink>
